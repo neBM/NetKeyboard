@@ -13,7 +13,7 @@ Runs on port 8000
 ## Server
 
 ```bash
-py client.py
+py server.py
 ```
 
 ## Client
@@ -21,7 +21,7 @@ py client.py
 Run with server ip address as the first argument:
 
 ```bash
-py server.py 192.168.1.1
+py client.py 192.168.1.1
 ```
 
 Replace `192.168.1.1` with the server address.
